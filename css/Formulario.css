@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding:  0;
+}
+
+header{
+    width: 100%;
+    background: #000000;
+    height: 70px;
+}
+
+.ancho{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.logo p a{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+nav{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+
+}
+
+nav ul li a:hover{
+    color: #444444;
+
+}
+
+
+
+.dos-columnas{
+    margin-top: 50px;
+  }
+  
+  .formulario{
+   float: left;
+width: 50%;
+margin: auto;
+color: #999;
+  }
+  
+  .caja-1{
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 12px;
+  }
+  
+  .caja-2{
+    width: 545px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px ;
+    left: 500px;
+  }
+
+  .f{
+      margin-bottom: auto;
+  }

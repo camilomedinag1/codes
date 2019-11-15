@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/Formulario.css">
+    <title>Document</title>
+
+   
+</head>
+<body>
+        <header>
+
+                <div class ="ancho">
+                    <div class="logo">
+                    <p><a href="index.html">Codes</a></p>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="Nosotros.html">Nosotros</a></li>
+                            <li><a href="Comollegar.html">Como llegar</a></li>
+                            <li><a href="imagenes.html">Imagenes</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>   
+
+    <section class = "dos-columnas">
+        <div class="formulario" >
+         <h4>Formulario de contacto</h4>
+         <form action="enviar.php" method="post"></form>
+           <input type = "text" name="nombre" placeholder="Nombre" class="caja-1" required="nombre requerido">
+           <input type = "email" name="email" placeholder="Email" class="caja-1" required="email requerido">
+           <input type = "tel" name="telefono" placeholder="telefono" class="caja-1" required="telefono requerido">
+           <input type = "text" name="asunto" placeholder="Asunto" class="caja-1" required="asunto requerido">
+           <textarea name="mensaje" id="" cols="30" rows="10" calss="caja-2" placeholder="Deja tus comentarios aquí"></textarea>
+           <button type="submit" class="contratar-a">Enviar</button>
+         </form>
+       </div>
+      </section>
+</body>
+</html>
